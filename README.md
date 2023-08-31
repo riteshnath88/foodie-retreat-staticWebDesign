@@ -1,1 +1,1 @@
-# foodie-retreat-staticWebDesign
+# A static website for basic CSS Designs
