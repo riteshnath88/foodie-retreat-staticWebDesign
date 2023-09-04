@@ -94,6 +94,10 @@ body {
   align-items: center;
 }
 
+strong {
+  font-weight: 500;
+}
+
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
