@@ -208,6 +208,10 @@ body {
 
 /*HELPER/SETTING CLASSES*/
 
+.margin-top-md {
+  margin-top: 4.8rem !important;
+}
+
 .margin-right-sm {
   /* In helper class, we normally write !important so that it has highest priority and it gets implemented. */
   margin-right: 1.6rem !important;
