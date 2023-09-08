@@ -12,6 +12,7 @@
   Instead of defining padding or allowing the content to define the height. */
   height: 9.6rem;
   padding: 0 4.9rem;
+  position: relative;
 }
 .logo {
   height: 2.2rem;
@@ -48,6 +49,31 @@
   border-radius: 9px;
   color: #fff;
   background-color: #e67e22;
+}
+
+/*********************************/
+/* MOBILE NAVIGATION SECTION */
+/*********************************/
+
+/* Originally we are making the button hidden - both three lines and close. But using media query, we will reveal the 1st button. */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #333;
+  font-size: 5rem;
+}
+
+/* We can use the name attribute selector as follows to select the icon with name attribute as close-putline */
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 /*********************************/
