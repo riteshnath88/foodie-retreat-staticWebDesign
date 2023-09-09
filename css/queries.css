@@ -122,6 +122,7 @@ BELOW 1344px (smaller desktops)
   /* Mobile Navigation */
   .btn-mobile-nav {
     display: block;
+    z-index: 1000;
   }
 
   /*We will take the main navigation out of the flow by using absolute positioning.
